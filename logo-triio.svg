@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 470" role="img" aria-labelledby="title desc">
+  <title id="title">Logo Triio</title>
+  <desc id="desc">Funil de bolas laranja acima do nome triio</desc>
+  <g fill="#fa570d">
+    <circle cx="50" cy="18" r="3"/><circle cx="85" cy="18" r="3"/><circle cx="120" cy="18" r="3"/><circle cx="155" cy="18" r="3"/><circle cx="190" cy="18" r="3"/><circle cx="225" cy="18" r="3"/><circle cx="260" cy="18" r="3"/><circle cx="295" cy="18" r="3"/><circle cx="330" cy="18" r="3"/><circle cx="365" cy="18" r="3"/><circle cx="400" cy="18" r="3"/><circle cx="435" cy="18" r="3"/><circle cx="470" cy="18" r="3"/>
+    <circle cx="60" cy="42" r="4"/><circle cx="100" cy="42" r="4"/><circle cx="140" cy="42" r="4"/><circle cx="180" cy="42" r="4"/><circle cx="220" cy="42" r="4"/><circle cx="260" cy="42" r="4"/><circle cx="300" cy="42" r="4"/><circle cx="340" cy="42" r="4"/><circle cx="380" cy="42" r="4"/><circle cx="420" cy="42" r="4"/><circle cx="460" cy="42" r="4"/>
+    <circle cx="92" cy="70" r="6"/><circle cx="134" cy="70" r="6"/><circle cx="176" cy="70" r="6"/><circle cx="218" cy="70" r="6"/><circle cx="260" cy="70" r="6"/><circle cx="302" cy="70" r="6"/><circle cx="344" cy="70" r="6"/><circle cx="386" cy="70" r="6"/><circle cx="428" cy="70" r="6"/>
+    <circle cx="125" cy="103" r="8"/><circle cx="170" cy="103" r="8"/><circle cx="215" cy="103" r="8"/><circle cx="260" cy="103" r="8"/><circle cx="305" cy="103" r="8"/><circle cx="350" cy="103" r="8"/><circle cx="395" cy="103" r="8"/>
+    <circle cx="164" cy="142" r="11"/><circle cx="212" cy="142" r="11"/><circle cx="260" cy="142" r="11"/><circle cx="308" cy="142" r="11"/><circle cx="356" cy="142" r="11"/>
+    <circle cx="208" cy="188" r="15"/><circle cx="260" cy="188" r="15"/><circle cx="312" cy="188" r="15"/>
+    <circle cx="260" cy="245" r="22"/>
+  </g>
+  <text x="260" y="438" text-anchor="middle" fill="#fa570d" font-family="Arial Rounded MT Bold, Trebuchet MS, sans-serif" font-size="112" font-weight="700" letter-spacing="-7">triio</text>
+</svg>

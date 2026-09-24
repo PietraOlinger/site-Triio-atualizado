@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cg fill='%23FD5401'%3E%3Ccircle cx='8' cy='8' r='2'/%3E%3Ccircle cx='16' cy='8' r='2'/%3E%3Ccircle cx='24' cy='8' r='2'/%3E%3Ccircle cx='12' cy='16' r='3'/%3E%3Ccircle cx='20' cy='16' r='3'/%3E%3Ccircle cx='16' cy='25' r='4'/%3E%3C/g%3E%3C/svg%3E" />
+  <title>Triio Software | Gestão completa para arenas esportivas</title>
+  <meta name="description" content="Triio: agenda, bar, aulas, lojinha, financeiro, estoque e fiscal em um único sistema para arenas de esportes de raquete. Suporte 24h e sem fidelidade." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="marca-triio" viewBox="0 0 100 68" fill="currentColor"><circle cx="3.2" cy="6.0" r="1.3"/><circle cx="11.0" cy="6.0" r="1.3"/><circle cx="18.8" cy="6.0" r="1.3"/><circle cx="26.6" cy="6.0" r="1.3"/><circle cx="34.4" cy="6.0" r="1.3"/><circle cx="42.2" cy="6.0" r="1.3"/><circle cx="50.0" cy="6.0" r="1.3"/><circle cx="57.8" cy="6.0" r="1.3"/><circle cx="65.6" cy="6.0" r="1.3"/><circle cx="73.4" cy="6.0" r="1.3"/><circle cx="81.2" cy="6.0" r="1.3"/><circle cx="89.0" cy="6.0" r="1.3"/><circle cx="96.8" cy="6.0" r="1.3"/><circle cx="11.0" cy="14.2" r="2.2"/><circle cx="18.8" cy="14.2" r="2.2"/><circle cx="26.6" cy="14.2" r="2.2"/><circle cx="34.4" cy="14.2" r="2.2"/><circle cx="42.2" cy="14.2" r="2.2"/><circle cx="50.0" cy="14.2" r="2.2"/><circle cx="57.8" cy="14.2" r="2.2"/><circle cx="65.6" cy="14.2" r="2.2"/><circle cx="73.4" cy="14.2" r="2.2"/><circle cx="81.2" cy="14.2" r="2.2"/><circle cx="89.0" cy="14.2" r="2.2"/><circle cx="18.8" cy="22.4" r="3.2"/><circle cx="26.6" cy="22.4" r="3.2"/><circle cx="34.4" cy="22.4" r="3.2"/><circle cx="42.2" cy="22.4" r="3.2"/><circle cx="50.0" cy="22.4" r="3.2"/><circle cx="57.8" cy="22.4" r="3.2"/><circle cx="65.6" cy="22.4" r="3.2"/><circle cx="73.4" cy="22.4" r="3.2"/><circle cx="81.2" cy="22.4" r="3.2"/><circle cx="26.6" cy="30.6" r="4.1"/><circle cx="34.4" cy="30.6" r="4.1"/><circle cx="42.2" cy="30.6" r="4.1"/><circle cx="50.0" cy="30.6" r="4.1"/><circle cx="57.8" cy="30.6" r="4.1"/><circle cx="65.6" cy="30.6" r="4.1"/><circle cx="73.4" cy="30.6" r="4.1"/><circle cx="34.4" cy="38.8" r="5.1"/><circle cx="42.2" cy="38.8" r="5.1"/><circle cx="50.0" cy="38.8" r="5.1"/><circle cx="57.8" cy="38.8" r="5.1"/><circle cx="65.6" cy="38.8" r="5.1"/><circle cx="42.2" cy="47.0" r="6.0"/><circle cx="50.0" cy="47.0" r="6.0"/><circle cx="57.8" cy="47.0" r="6.0"/><circle cx="50.0" cy="55.2" r="7.0"/></symbol>
+  </svg>
+
+  <header class="cabecalho" id="cabecalho">
+    <div class="container barra">
+      <a href="#topo" class="logo" aria-label="Triio Software - início">
+        <img class="logo-imagem" src="img/logo-triio-exato.png" alt="Triio" />
+      </a>
+
+      <nav class="nav" id="nav">
+        <div class="nav-item">
+          <a class="nav-link" href="#plataforma">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg>
+            Plataforma
+          </a>
+          <div class="pop">
+            <strong>Tudo em um sistema só</strong>
+            <p>Agenda, bar, aulas, lojinha, financeiro, estoque e fiscal integrados — sem planilha paralela.</p>
+            <ul>
+              <li><a href="#modulos">Ver os 16 módulos</a></li>
+              <li><a href="#conexao">Como tudo se conecta</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a class="nav-link" href="#modulos">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+            Módulos
+          </a>
+          <div class="pop">
+            <strong>16 módulos ativos</strong>
+            <p>Da reserva da quadra à nota fiscal emitida, sem trocar de tela.</p>
+            <ul>
+              <li><a href="#modulos">Agenda e mensalistas</a></li>
+              <li><a href="#modulos">Bar, cozinha e caixa</a></li>
+              <li><a href="#modulos">Fiscal e relatórios</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a class="nav-link" href="#resultados">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 20h18"/><path d="M6 20V11M11 20V5M16 20v-6M21 20v-9"/></svg>
+            Resultados
+          </a>
+          <div class="pop">
+            <strong>Números do Triio</strong>
+            <p>Mais de 5 mil usuários, 76 arenas e presença em 16 estados brasileiros.</p>
+            <ul>
+              <li><a href="#resultados">Ver gráficos</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a class="nav-link" href="#videos">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="5" width="15" height="14" rx="2.5"/><path d="M17 10l5-3v10l-5-3z"/></svg>
+            Vídeos
+          </a>
+          <div class="pop">
+            <strong>Veja o sistema rodando</strong>
+            <p>Demonstrações curtas direto do YouTube e do Instagram da Triio.</p>
+            <ul>
+              <li><a href="#videos">Assistir agora</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a class="nav-link" href="#feedback">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12a8 8 0 0 1-8 8H7l-4 3V12a8 8 0 0 1 8-8h2a8 8 0 0 1 8 8z"/></svg>
+            Feedback
+          </a>
+          <div class="pop">
+            <strong>Quem já usa, recomenda</strong>
+            <p>Depoimentos de donos de arena separados por tema: gestão, bar, fiscal e suporte.</p>
+            <ul>
+              <li><a href="#feedback">Ler depoimentos</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a class="nav-link" href="#suporte">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="2" y="13" width="4" height="7" rx="2"/><rect x="18" y="13" width="4" height="7" rx="2"/><path d="M20 20a3 3 0 0 1-3 3h-3"/></svg>
+            Suporte 24h
+          </a>
+          <div class="pop">
+            <strong>Atendimento 24 horas</strong>
+            <p>Time da Triio disponível todos os dias, inclusive nos fins de semana cheios da sua arena.</p>
+            <ul>
+              <li><a href="https://wa.me/5547991631712" target="_blank" rel="noopener">Falar agora no WhatsApp</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="acoes-cabecalho">
+        <a class="btn btn-principal" href="https://wa.me/5547991631712?text=Ol%C3%A1!%20Quero%20uma%20demonstra%C3%A7%C3%A3o%20do%20Triio." target="_blank" rel="noopener">Pedir demonstração</a>
+        <button class="hamburguer" id="hamburguer" aria-label="Abrir menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="topo">
+    <section class="hero">
+      <div class="brilho"></div>
+      <div class="quadra"></div>
+      <div class="container">
+        <div class="selo"><span class="pulso"></span> Suporte humano 24 horas, todos os dias</div>
+        <h1>A arena inteira girando em um sistema só.</h1>
+        <p class="hero-sub">
+          Enquanto outros softwares param no agendamento, o Triio cuida de agenda, bar, aulas,
+          lojinha, financeiro, estoque e fiscal. Integrado, simples de operar e sem fidelidade.
+        </p>
+
+        <div class="hero-botoes">
+          <a class="btn btn-principal" href="https://wa.me/5547991631712?text=Ol%C3%A1!%20Quero%20uma%20demonstra%C3%A7%C3%A3o%20do%20Triio." target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20zm4.4-5.8c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.7 1-.3.2-.5.1a6.5 6.5 0 0 1-3.2-2.8c-.2-.4.2-.4.6-1.2.1-.2 0-.4 0-.5l-.7-1.7c-.2-.4-.4-.4-.5-.4h-.5a1 1 0 0 0-.7.3A2.9 2.9 0 0 0 7 10.4a5.1 5.1 0 0 0 1 2.6 11.5 11.5 0 0 0 4.4 3.9c1.6.6 2.2.7 3 .6a2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .1-1.2z"/></svg>
+            Falar com a Triio
+          </a>
+          <a class="btn btn-secundario" href="#modulos">Ver funcionalidades</a>
+        </div>
+
+        <div class="faixa-numeros revelar">
+          <div><b class="contador" data-final="5000" data-prefixo="+">0</b><small>usuários ativos na plataforma</small></div>
+          <div><b class="contador" data-final="16" data-prefixo="+">0</b><small>estados brasileiros atendidos</small></div>
+          <div><b class="contador" data-final="76" data-prefixo="+">0</b><small>arenas usando o Triio</small></div>
+          <div><b>24h</b><small>suporte todos os dias</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-escura" id="plataforma">
+      <div class="container">
+        <div class="cabecalho-secao revelar">
+          <h2>Gerir arena com quatro sistemas diferentes custa caro.</h2>
+          <p>Planilha para o financeiro, caderno para o bar, aplicativo só para reserva e o contador cobrando as notas. O Triio junta tudo isso em uma operação única.</p>
+        </div>
+
+        <div class="duas-colunas">
+          <div class="painel revelar">
+            <h3>Como costuma ser hoje</h3>
+            <ul class="lista">
+              <li><span class="marca-x">✕</span> Reserva no WhatsApp e conferência manual no fim do dia</li>
+              <li><span class="marca-x">✕</span> Consumo do bar anotado no papel e cobrado errado</li>
+              <li><span class="marca-x">✕</span> Estoque sem controle e margem que some sem explicação</li>
+              <li><span class="marca-x">✕</span> Mensalista em atraso descoberto só no mês seguinte</li>
+              <li><span class="marca-x">✕</span> Nota fiscal emitida fora do sistema, com retrabalho</li>
+            </ul>
+          </div>
+
+          <div class="painel destaque revelar">
+            <h3>Como fica com o Triio</h3>
+            <ul class="lista">
+              <li><span class="marca-ok">✓</span> Grid de horários por espaço, tipo e status em cores</li>
+              <li><span class="marca-ok">✓</span> Comanda do bar ligada à quadra e ao caixa</li>
+              <li><span class="marca-ok">✓</span> Estoque baixado automaticamente a cada venda</li>
+              <li><span class="marca-ok">✓</span> Mensalistas, contratos e cobranças acompanhados de perto</li>
+              <li><span class="marca-ok">✓</span> NFC-e e NFS-e emitidas dentro do próprio sistema</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="modulos">
+      <div class="container">
+        <div class="cabecalho-secao revelar">
+          <h2>16 módulos que trabalham juntos.</h2>
+          <p>Você ativa o que precisa hoje e cresce sem trocar de sistema depois.</p>
+        </div>
+
+        <div class="grade-modulos">
+          <article class="modulo revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></div>
+            <h3>Agenda</h3>
+            <p>Locações de mensalistas, aulas e avulsos no mesmo grid, com tarifário, bloqueios em lote e status por cor.</p>
+          </article>
+
+          <article class="modulo revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13l9 5 9-5"/></svg></div>
+            <h3>Gestão de aulas</h3>
+            <p>Turmas, professores, frequência e pacotes controlados sem lista paralela no papel.</p>
+          </article>
+
+          <article class="modulo revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 3h12l-1 6a5 5 0 0 1-10 0L6 3z"/><path d="M12 14v7M8 21h8"/></svg></div>
+            <h3>Bar e lojinha</h3>
+            <p>Venda no balcão ou na comanda da quadra, com preço, margem e baixa de estoque na hora.</p>
+          </article>
+
+          <article class="modulo revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9"/></svg></div>
+            <h3>Mensalistas</h3>
+            <p>Contratos mensais, semestrais ou anuais com renovação, reajuste e histórico do cliente.</p>
+          </article>
+
+          <article class="modulo revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20h16M6 16V9M10 16V5M14 16v-4M18 16V7"/></svg></div>
+            <h3>Pedidos de cozinha</h3>
+            <p>O pedido sai do atendimento e chega na cozinha organizado, sem grito e sem comanda perdida.</p>
+          </article>
+
+          <article class="modulo revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M2 11h20"/></svg></div>
+            <h3>Caixa e fechamentos</h3>
+            <p>Abertura, sangria, conferência por forma de pagamento e fechamento de turno em minutos.</p>
+          </article>
+
+          <article class="modulo revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9.5 9.5h5M9.5 14.5h5"/></svg></div>
+            <h3>Financeiro</h3>
+            <p>Contas a pagar e a receber, centros de custo e o resultado real da arena, mês a mês.</p>
+          </article>
+
+          <article class="modulo revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 7l9-4 9 4v10l-9 4-9-4V7z"/><path d="M3 7l9 4 9-4M12 11v10"/></svg></div>
+            <h3>Estoque</h3>
+            <p>Entradas, perdas, inventário e custo médio para você saber onde a margem está indo.</p>
+          </article>
+
+          <article class="modulo revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 2h9l5 5v15H6z"/><path d="M15 2v5h5M9 13h7M9 17h5"/></svg></div>
+            <h3>Fiscal</h3>
+            <p>NFC-e e NFS-e emitidas direto do sistema, com os dados batendo com o financeiro.</p>
+          </article>
+
+          <article class="modulo revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4v16h16"/><path d="M8 15l3.5-4 3 2.5L20 7"/></svg></div>
+            <h3>Relatórios e indicadores</h3>
+            <p>Ocupação por horário, ticket médio, ranking de produtos e comparativo entre períodos.</p>
+          </article>
+
+          <article class="modulo revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3l2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-2.9L6.7 19.6l1.1-6L3.4 9.4l6-.8L12 3z"/></svg></div>
+            <h3>Clube Mais e fidelidade</h3>
+            <p>Pontos, benefícios e planos de clube para o cliente voltar mais vezes na semana.</p>
+          </article>
+
+          <article class="modulo revelar">
+            <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="8" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/><rect x="13" y="13" width="8" height="8" rx="1.5"/></svg></div>
+            <h3>Multi empresas</h3>
+            <p>Mais de uma unidade no mesmo login, com consolidação dos números em um lugar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-escura" id="resultados">
+      <div class="container">
+        <div class="cabecalho-secao revelar">
+          <h2>Os números de quem já joga com o Triio.</h2>
+          <p>Arenas de esportes de raquete de norte a sul do país operando na mesma plataforma.</p>
+        </div>
+
+        <div class="bloco-dados">
+          <div class="card-dados revelar" id="grafico1">
+            <h3>Locações registradas por mês</h3>
+            <div class="legenda">Média das arenas ativas, em milhares de reservas</div>
+            <div class="grafico-barras">
+              <div class="coluna"><div class="barra" data-altura="34" data-valor="18k"></div><small>Jan</small></div>
+              <div class="coluna"><div class="barra" data-altura="44" data-valor="24k"></div><small>Mar</small></div>
+              <div class="coluna"><div class="barra" data-altura="52" data-valor="29k"></div><small>Mai</small></div>
+              <div class="coluna"><div class="barra" data-altura="66" data-valor="37k"></div><small>Jul</small></div>
+              <div class="coluna"><div class="barra" data-altura="80" data-valor="45k"></div><small>Set</small></div>
+              <div class="coluna"><div class="barra" data-altura="100" data-valor="58k"></div><small>Nov</small></div>
+            </div>
+          </div>
+
+          <div class="card-dados revelar" id="grafico2">
+            <h3>Onde as arenas Triio estão</h3>
+            <div class="legenda">Distribuição das unidades entre os 16 estados atendidos</div>
+
+            <div class="linha-estado">
+              <div class="topo"><span>Santa Catarina</span><span>31 arenas</span></div>
+              <div class="trilha"><div class="preenchimento" data-largura="100"></div></div>
+            </div>
+            <div class="linha-estado">
+              <div class="topo"><span>Paraná</span><span>14 arenas</span></div>
+              <div class="trilha"><div class="preenchimento" data-largura="62"></div></div>
+            </div>
+            <div class="linha-estado">
+              <div class="topo"><span>São Paulo</span><span>11 arenas</span></div>
+              <div class="trilha"><div class="preenchimento" data-largura="50"></div></div>
+            </div>
+            <div class="linha-estado">
+              <div class="topo"><span>Rio Grande do Sul</span><span>8 arenas</span></div>
+              <div class="trilha"><div class="preenchimento" data-largura="38"></div></div>
+            </div>
+            <div class="linha-estado">
+              <div class="topo"><span>Demais estados</span><span>12 arenas</span></div>
+              <div class="trilha"><div class="preenchimento" data-largura="48"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="conexao">
+      <div class="container conexao">
+        <div class="conexao-imagem revelar">
+          <svg class="diagrama" viewBox="0 0 600 600" role="img" aria-label="Diagrama: agenda, financeiro, fiscal, bar e lojinha e estoque conectados ao núcleo do Triio">
+            <circle class="anel-externo" cx="300" cy="300" r="286"/>
+            <circle class="anel-externo" cx="300" cy="300" r="248"/>
+
+            <g class="no">
+              <line class="fio" x1="300" y1="188" x2="300" y2="154"/>
+              <circle class="no-fundo" cx="300" cy="90" r="64"/>
+              <circle class="no-borda" cx="300" cy="90" r="64"/>
+              <circle class="ponto" cx="300" cy="60" r="5"/>
+              <text class="rotulo" x="300" y="92">Operação</text>
+              <text class="rotulo" x="300" y="110">Inteligente</text>
+            </g>
+            <g class="no">
+              <line class="fio" x1="397" y1="244" x2="426" y2="227"/>
+              <circle class="no-fundo" cx="482" cy="195" r="64"/>
+              <circle class="no-borda" cx="482" cy="195" r="64"/>
+              <circle class="ponto" cx="482" cy="165" r="5"/>
+              <text class="rotulo" x="482" y="197">Financeiro</text>
+              <text class="rotulo" x="482" y="215">Profissional</text>
+            </g>
+            <g class="no">
+              <line class="fio" x1="397" y1="356" x2="426" y2="373"/>
+              <circle class="no-fundo" cx="482" cy="405" r="64"/>
+              <circle class="no-borda" cx="482" cy="405" r="64"/>
+              <circle class="ponto" cx="482" cy="375" r="5"/>
+              <text class="rotulo" x="482" y="407">Bar &amp; Lojinha</text>
+              <text class="rotulo" x="482" y="425">Integrados</text>
+            </g>
+            <g class="no">
+              <line class="fio" x1="300" y1="412" x2="300" y2="446"/>
+              <circle class="no-fundo" cx="300" cy="510" r="64"/>
+              <circle class="no-borda" cx="300" cy="510" r="64"/>
+              <circle class="ponto" cx="300" cy="480" r="5"/>
+              <text class="rotulo" x="300" y="512">Estoque &amp; Custos</text>
+              <text class="rotulo" x="300" y="530">sob Controle</text>
+            </g>
+            <g class="no">
+              <line class="fio" x1="203" y1="356" x2="174" y2="373"/>
+              <circle class="no-fundo" cx="118" cy="405" r="64"/>
+              <circle class="no-borda" cx="118" cy="405" r="64"/>
+              <circle class="ponto" cx="118" cy="375" r="5"/>
+              <text class="rotulo" x="118" y="407">Fiscal sem</text>
+              <text class="rotulo" x="118" y="425">Complicação</text>
+            </g>
+            <g class="no">
+              <line class="fio" x1="203" y1="244" x2="174" y2="227"/>
+              <circle class="no-fundo" cx="118" cy="195" r="64"/>
+              <circle class="no-borda" cx="118" cy="195" r="64"/>
+              <circle class="ponto" cx="118" cy="165" r="5"/>
+              <text class="rotulo" x="118" y="197">Agenda &amp;</text>
+              <text class="rotulo" x="118" y="215">Mensalistas</text>
+            </g>
+
+            <circle class="nucleo-halo" cx="300" cy="300" r="132"/>
+            <circle class="nucleo" cx="300" cy="300" r="112"/>
+            <circle class="nucleo-borda" cx="300" cy="300" r="112"/>
+            <text class="nucleo-nome" x="300" y="292">triio</text>
+            <text class="nucleo-texto" x="300" y="320">onde toda a gestão</text>
+            <text class="nucleo-texto" x="300" y="338">se conecta</text>
+          </svg>
+        </div>
+
+        <div class="revelar">
+          <h2>Onde toda a gestão se conecta.</h2>
+          <p class="texto-apoio">
+            Cada módulo alimenta o próximo. A reserva vira comanda, a comanda vira venda,
+            a venda baixa o estoque, o estoque ajusta a margem e o fiscal fecha o ciclo.
+            Uma informação só, digitada uma vez.
+          </p>
+
+          <ul class="lista" style="margin-top:26px">
+            <li><span class="marca-ok">✓</span> <b style="color:var(--osso)">Operação inteligente</b> — quadras, aulas e horários organizados sem retrabalho.</li>
+            <li><span class="marca-ok">✓</span> <b style="color:var(--osso)">Financeiro profissional</b> — visão real do resultado da sua arena.</li>
+            <li><span class="marca-ok">✓</span> <b style="color:var(--osso)">Fiscal sem complicação</b> — notas emitidas com segurança e tranquilidade.</li>
+            <li><span class="marca-ok">✓</span> <b style="color:var(--osso)">Bar e lojinha integrados</b> — venda, controle e lucre sem perder margem.</li>
+            <li><span class="marca-ok">✓</span> <b style="color:var(--osso)">Estoque e custos sob controle</b> — evite perdas e aumente a margem.</li>
+          </ul>
+
+          <a class="btn btn-principal" style="margin-top:12px" href="https://wa.me/5547991631712?text=Quero%20ver%20o%20Triio%20funcionando%20na%20minha%20arena." target="_blank" rel="noopener">Ver na prática</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-escura" id="videos">
+      <div class="container">
+        <div class="cabecalho-secao revelar">
+          <h2>O Triio em movimento.</h2>
+          <p>Dois minutos assistindo explicam melhor do que dez parágrafos lendo.</p>
+        </div>
+
+        <div class="grade-videos">
+          <div class="moldura-video revelar" id="video-youtube">
+            <button class="capa" data-video="https://www.youtube.com/embed/GuzUimWe77s?autoplay=1" aria-label="Reproduzir vídeo do Triio no YouTube">
+              <span class="play">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+              </span>
+              <span>Assista à apresentação do sistema</span>
+            </button>
+          </div>
+
+          <div class="moldura-video vertical revelar">
+            <a class="capa" href="https://www.instagram.com/reel/DYXirnuxWeF/" target="_blank" rel="noopener" aria-label="Abrir reel da Triio no Instagram">
+              <span class="play">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>
+              </span>
+              <span>Ver o reel no Instagram @triiosoftwares</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="feedback">
+      <div class="container">
+        <div class="cabecalho-secao revelar">
+          <h2>Quem já usa, recomenda.</h2>
+          <p>Depoimentos de donos e gestores de arena que trocaram a planilha pelo Triio.</p>
+        </div>
+
+        <div class="abas" role="tablist">
+          <button class="aba ativa" role="tab" data-aba="gestao">Gestão</button>
+          <button class="aba" role="tab" data-aba="bar">Bar e lojinha</button>
+          <button class="aba" role="tab" data-aba="fiscal">Fiscal</button>
+          <button class="aba" role="tab" data-aba="suporte">Suporte</button>
+        </div>
+
+        <div class="painel-aba ativo" data-painel="gestao">
+          <div class="depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p>Com o Triio, reduzi em 80% meu tempo de gestão e aumentei minha receita. O sistema é completo.</p>
+            <div class="autor"><span class="avatar">RM</span><div><b>Rafael M.</b><small>Arena de beach tennis · Itapema, SC</small></div></div>
+          </div>
+          <div class="depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p>A agenda por cores mudou o dia a dia da recepção. Ninguém mais reserva horário em cima do outro.</p>
+            <div class="autor"><span class="avatar">CL</span><div><b>Carla L.</b><small>Complexo de padel · Curitiba, PR</small></div></div>
+          </div>
+          <div class="depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p>Tenho duas unidades e acompanho o resultado das duas no mesmo painel, sem pedir relatório para ninguém.</p>
+            <div class="autor"><span class="avatar">DF</span><div><b>Diego F.</b><small>Duas arenas · Balneário Camboriú, SC</small></div></div>
+          </div>
+        </div>
+
+        <div class="painel-aba" data-painel="bar">
+          <div class="depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p>O consumo cai direto na comanda da quadra. O cliente fecha tudo de uma vez e o caixa bate no fim da noite.</p>
+            <div class="autor"><span class="avatar">JP</span><div><b>João P.</b><small>Arena com bar · Florianópolis, SC</small></div></div>
+          </div>
+          <div class="depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p>Descobri produtos que eu vendia com margem quase zero. Ajustei o preço e a lojinha virou lucro de verdade.</p>
+            <div class="autor"><span class="avatar">AS</span><div><b>Amanda S.</b><small>Arena e loja · Londrina, PR</small></div></div>
+          </div>
+        </div>
+
+        <div class="painel-aba" data-painel="fiscal">
+          <div class="depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p>Emitir nota deixou de ser um problema de fim de mês. Sai na hora da venda e o contador não reclama mais.</p>
+            <div class="autor"><span class="avatar">MT</span><div><b>Marcos T.</b><small>Arena de padel · São José, SC</small></div></div>
+          </div>
+          <div class="depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p>Migrar o fiscal para dentro do sistema economizou umas seis horas por mês da minha equipe.</p>
+            <div class="autor"><span class="avatar">PV</span><div><b>Patrícia V.</b><small>Centro esportivo · Campinas, SP</small></div></div>
+          </div>
+        </div>
+
+        <div class="painel-aba" data-painel="suporte">
+          <div class="depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p>Chamei no domingo às 21h com a quadra cheia e fui atendido na hora. Esse suporte 24h vale o contrato sozinho.</p>
+            <div class="autor"><span class="avatar">LB</span><div><b>Lucas B.</b><small>Arena de beach tennis · Porto Alegre, RS</small></div></div>
+          </div>
+          <div class="depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p>Time atencioso e que entende de arena, não só de software. Responde rápido e resolve.</p>
+            <div class="autor"><span class="avatar">GS</span><div><b>Gabriel S.</b><small>Arena multiesportiva · Goiânia, GO</small></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="suporte">
+      <div class="container">
+        <div class="suporte revelar">
+          <div class="suporte-conteudo">
+            <div>
+              <h2>Sua arena não fecha no domingo. Nosso suporte também não.</h2>
+              <p>Atendimento humano 24 horas por dia, 7 dias por semana, pelo WhatsApp. Quadra cheia com problema no caixa é urgência — e a gente trata como urgência.</p>
+              <a class="btn btn-secundario" style="background:#fff;color:#C23A00;border-color:#fff" href="https://wa.me/5547991631712?text=Preciso%20de%20suporte%20Triio." target="_blank" rel="noopener">Chamar o suporte</a>
+            </div>
+            <div class="relogio">
+              <b>24/7</b>
+              <div style="font-size:.9rem;line-height:1.4">
+                Todos os dias<br>inclusive feriados<br>e finais de semana
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao cta-final">
+      <div class="container revelar">
+        <h2>Dê um saque de qualidade na gestão da sua arena.</h2>
+        <p class="texto-apoio">Demonstração sem compromisso, implantação acompanhada e contrato sem fidelidade.</p>
+        <div class="hero-botoes" style="justify-content:center">
+          <a class="btn btn-principal" href="https://wa.me/5547991631712?text=Ol%C3%A1!%20Quero%20conhecer%20o%20Triio%20para%20a%20minha%20arena." target="_blank" rel="noopener">Solicitar demonstração</a>
+          <a class="btn btn-secundario" href="mailto:contato@triio.com.br">Falar por e-mail</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <div class="rodape-grade">
+        <div>
+          <a href="#topo" class="logo" style="margin-bottom:16px">
+            <svg class="logo-marca" aria-hidden="true"><use href="#marca-triio"/></svg>
+            <span class="logo-texto">triio</span>
+          </a>
+          <p class="texto-apoio" style="font-size:.88rem;max-width:34ch">
+            Gestão unificada para arenas de esportes de raquete. Agenda, bar, financeiro e fiscal em um sistema só.
+          </p>
+          <div class="redes">
+            <a href="https://www.instagram.com/triiosoftwares/" target="_blank" rel="noopener" aria-label="Instagram da Triio">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>
+            </a>
+            <a href="https://www.youtube.com/@TriioSoftware/shorts" target="_blank" rel="noopener" aria-label="YouTube da Triio">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.5-.4-5.2a2.9 2.9 0 0 0-2-2C18.7 4.3 12 4.3 12 4.3s-6.7 0-8.6.5a2.9 2.9 0 0 0-2 2C1 8.5 1 12 1 12s0 3.5.4 5.2a2.9 2.9 0 0 0 2 2c1.9.5 8.6.5 8.6.5s6.7 0 8.6-.5a2.9 2.9 0 0 0 2-2C23 15.5 23 12 23 12zM9.8 15.3V8.7l5.7 3.3-5.7 3.3z"/></svg>
+            </a>
+            <a href="https://wa.me/5547991631712" target="_blank" rel="noopener" aria-label="WhatsApp da Triio">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20zm4.4-5.8c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.7 1-.3.2-.5.1a6.5 6.5 0 0 1-3.2-2.8c-.2-.4.2-.4.6-1.2.1-.2 0-.4 0-.5l-.7-1.7c-.2-.4-.4-.4-.5-.4h-.5a1 1 0 0 0-.7.3A2.9 2.9 0 0 0 7 10.4a5.1 5.1 0 0 0 1 2.6 11.5 11.5 0 0 0 4.4 3.9c1.6.6 2.2.7 3 .6a2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .1-1.2z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Sistema</h4>
+          <ul>
+            <li class="link-pop"><a href="#modulos">Agenda</a><div class="pop"><strong>Agenda</strong><p>Mensalistas, aulas e avulsos no mesmo grid, com bloqueios em lote.</p></div></li>
+            <li class="link-pop"><a href="#modulos">Bar e lojinha</a><div class="pop"><strong>Bar e lojinha</strong><p>Comanda ligada à quadra, baixa de estoque e margem por produto.</p></div></li>
+            <li class="link-pop"><a href="#modulos">Financeiro</a><div class="pop"><strong>Financeiro</strong><p>Contas, centros de custo e o resultado real da arena.</p></div></li>
+            <li class="link-pop"><a href="#modulos">Fiscal</a><div class="pop"><strong>Fiscal</strong><p>NFC-e e NFS-e emitidas dentro do sistema.</p></div></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Empresa</h4>
+          <ul>
+            <li class="link-pop"><a href="#resultados">Resultados</a><div class="pop"><strong>Resultados</strong><p>+5 mil usuários, 76 arenas e 16 estados atendidos.</p></div></li>
+            <li class="link-pop"><a href="#feedback">Depoimentos</a><div class="pop"><strong>Depoimentos</strong><p>Quem já usa o Triio contando o que mudou na operação.</p></div></li>
+            <li class="link-pop"><a href="#videos">Vídeos</a><div class="pop"><strong>Vídeos</strong><p>Demonstrações no YouTube e no Instagram da Triio.</p></div></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contato</h4>
+          <ul>
+            <li class="link-pop"><a href="https://wa.me/5547991631712" target="_blank" rel="noopener">WhatsApp 47 99163-1712</a><div class="pop"><strong>Atendimento 24h</strong><p>Fale com o time comercial ou com o suporte a qualquer hora.</p></div></li>
+            <li class="link-pop"><a href="mailto:contato@triio.com.br">contato@triio.com.br</a><div class="pop"><strong>E-mail</strong><p>Para propostas, dúvidas e parcerias.</p></div></li>
+            <li class="link-pop"><a href="#">Rua 246, 406 — Meia Praia, Itapema/SC</a><div class="pop"><strong>Onde estamos</strong><p>Itapema, Santa Catarina. Atendimento remoto para todo o Brasil.</p></div></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="rodape-base">
+        <span>© 2026 Triio Soluções em Tecnologia LTDA · CNPJ 35.524.380/0001-48</span>
+        <span>Política de privacidade · Política de cookies</span>
+      </div>
+    </div>
+  </footer>
+
+  <a class="zap" href="https://wa.me/5547991631712?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Triio." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20zm4.4-5.8c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.7 1-.3.2-.5.1a6.5 6.5 0 0 1-3.2-2.8c-.2-.4.2-.4.6-1.2.1-.2 0-.4 0-.5l-.7-1.7c-.2-.4-.4-.4-.5-.4h-.5a1 1 0 0 0-.7.3A2.9 2.9 0 0 0 7 10.4a5.1 5.1 0 0 0 1 2.6 11.5 11.5 0 0 0 4.4 3.9c1.6.6 2.2.7 3 .6a2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .1-1.2z"/></svg>
+    <span>Fale conosco</span>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
